@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: smartnest-backend
+  
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: smartnest
+      auto-index-creation: true
+
+jwt:
+  secret: SmartNestSecretKey2024!ChangeInProduction
+  expiration: 86400000 # 24 hours in milliseconds
+
+logging:
+  level:
+    com.smartnest: DEBUG
+    org.springframework.web: INFO
+    org.springframework.security: DEBUG
+
