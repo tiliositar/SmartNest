@@ -1,0 +1,33 @@
+# Java
+backend-java/target/
+backend-java/.mvn/
+backend-java/mvnw*
+backend-java/.classpath
+backend-java/.project
+backend-java/.settings/
+
+# Node.js
+gateway-node/node_modules/
+gateway-node/npm-debug.log
+gateway-node/.env
+
+# React
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/.env
+frontend-react/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
